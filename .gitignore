@@ -1,3 +1,6 @@
 #
 *.log
+screenlog.*
 node_modules/
+#
+package-lock.json
