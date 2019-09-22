@@ -4,7 +4,7 @@ const
   shell = require('shelljs'),
   path = require('path');
 
-app.get('/control', (request, response) => {
+app.get('/control/:proejct/:type', (request, response) => {
   let project = request.params.project;
   let type = request.params.type;
   let proejctDir = path.join(__dirname,'..', project , 'Gulp');
@@ -17,6 +17,9 @@ app.get('/control', (request, response) => {
     case 'stop' :
       // Session drop
       shell.exec(`screen -X -S ${project} quit`);
+      break;
+    case 'test' :
+      console.log('TEST Success!');
       break;
     default :
       break;
