@@ -1,0 +1,23 @@
+{
+  "name": "gulp-control-api",
+  "version": "1.0.0",
+  "description": "## Why did you start this project?",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hansanghyeon/Gulp-control-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hansanghyeon/Gulp-control-api/issues"
+  },
+  "homepage": "https://github.com/Hansanghyeon/Gulp-control-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "shelljs": "^0.8.3"
+  }
+}
