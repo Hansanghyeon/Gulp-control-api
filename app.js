@@ -33,7 +33,7 @@ app.post('/control/:project/:type', (request, response) => {
       }
     };
 
-    signVerification(response, request, nodeApi);
+    signVerification(request, response, nodeApi);
   } catch ( err ) {
     response.writeHead(404, {'Content-Type': 'text/plain'});
     response.end();
