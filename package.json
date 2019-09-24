@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/Hansanghyeon/Gulp-control-api#readme",
   "dependencies": {
+    "dotenv": "^8.1.0",
     "express": "^4.17.1",
+    "qs": "^6.9.0",
     "shelljs": "^0.8.3"
   }
 }
