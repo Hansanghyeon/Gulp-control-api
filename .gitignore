@@ -1,3 +1,9 @@
 #
 *.log
+screenlog.*
 node_modules/
+#
+package-lock.json
+
+# 전역환경변수
+*.env
