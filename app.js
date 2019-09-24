@@ -3,7 +3,7 @@ const
   app = express(),
   shell = require('shelljs'),
   path = require('path'),
-  signVerification = require('./signVerification');
+  signVerification = require('./containers/signVerification');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
